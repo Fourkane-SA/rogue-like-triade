@@ -1,0 +1,3 @@
+<map id="Monstre" name="Monstre">
+<area shape="rect" id="node2" href="$classRectangleCollision.html" title="{RectangleCollision\n|+ positionRectCollision\l+ dimentionRectCollision\l+ formeRectCollision\l+ visible\l|+ RectangleCollision()\l+ RectangleCollision()\l+ setPositionRectangleCollision()\l+ checkCollision()\l+ checkCollisionAngles()\l+ renduRectangleCollision()\l}" alt="" coords="6,5,245,200"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Salle::initSalle" name="Salle::initSalle">
+<area shape="rect" id="node2" href="$classMonstre.html#afc807b566fda8229809d429e5042050f" title="Initialise un monstre. " alt="" coords="173,5,328,32"/>
+<area shape="rect" id="node4" href="$classObject.html#af73e71375d7c2901c848a5235982ff2b" title="Initialise un objet au hasard aux positions en parametre. " alt="" coords="187,56,315,83"/>
+<area shape="rect" id="node5" href="$classObstacle.html#aaf8517649f6663f92732835b2d0a524c" title="Initialise l&#39;obstacle. " alt="" coords="168,107,333,133"/>
+<area shape="rect" id="node3" href="$classRectangleCollision.html#afe37cf9c24b46f2d6aff8a2d824234f3" title="Mutateur de la position. " alt="" coords="381,49,604,90"/>
+</map>

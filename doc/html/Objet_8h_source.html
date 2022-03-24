@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriLand:  Fichier source de src/Objet.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TriLand
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Objet.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;Collision.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classObject.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classObject.html">Object</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classObject.html#a3bf9d5c7267d6816a22f6362c74ce70a">   15</a></span>&#160;        sf::Vector2i <a class="code" href="classObject.html#a3bf9d5c7267d6816a22f6362c74ce70a">positionObjet</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classObject.html#a8d90a5329ddd5acf9dd37bec74a783a0">   20</a></span>&#160;        sf::Vector2i <a class="code" href="classObject.html#a8d90a5329ddd5acf9dd37bec74a783a0">dimensionObjet</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classObject.html#af2df029442f6083d1cd085471e6fa2aa">   25</a></span>&#160;        sf::Texture <a class="code" href="classObject.html#af2df029442f6083d1cd085471e6fa2aa">textureObjet</a>;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classObject.html#a600e4e4c2936df55a5aa7f15a1322357">   29</a></span>&#160;        sf::Sprite <a class="code" href="classObject.html#a600e4e4c2936df55a5aa7f15a1322357">spriteObjet</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classObject.html#a57792a7bc3d7a4ceb65019805929224c">   34</a></span>&#160;        <a class="code" href="classRectangleCollision.html">RectangleCollision</a>* <a class="code" href="classObject.html#a57792a7bc3d7a4ceb65019805929224c">rectCollisionObjet</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classObject.html#aef78c477a70d2cae9b017483a208e1e3">   41</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classObject.html#aef78c477a70d2cae9b017483a208e1e3">objetVie</a>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="classObject.html#a617de590f0f1eedd23ee434101b4db1f">   46</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObject.html#a617de590f0f1eedd23ee434101b4db1f">objetAttaque</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classObject.html#ac4d9f3d1c82b3f9063813188d164cfe0">   51</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObject.html#ac4d9f3d1c82b3f9063813188d164cfe0">objetVitesseAttaque</a>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="classObject.html#a21ab4cefc64ead3f63308431ec360899">   56</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObject.html#a21ab4cefc64ead3f63308431ec360899">objetVitesseDeplacement</a>;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="classObject.html#a40860402e64d8008fb42329df7097cdb">Object</a>();</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classObject.html#af73e71375d7c2901c848a5235982ff2b">initObjet</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        sf::Vector2i <a class="code" href="classObject.html#aea6d9ca3a7e0ec62fa7f62b3d6c56eae">getPosition</a>();</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        sf::Vector2i <a class="code" href="classObject.html#aa43a3319efbd440a2da6b5f93b1eedec">getSize</a>();</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        </div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="classRectangleCollision.html">RectangleCollision</a>* <a class="code" href="classObject.html#aaa8b4e53d2d44b0b724ab217834d7556">getRectCollisionObjet</a>();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        </div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classObject.html#a12f06e9f0d164435b36531edb2d4bf4c">renduObjet</a>(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        ~<a class="code" href="classObject.html">Object</a>();</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;};</div><div class="ttc" id="classObject_html"><div class="ttname"><a href="classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> Objet.h:8</div></div>
+<div class="ttc" id="classObject_html_a617de590f0f1eedd23ee434101b4db1f"><div class="ttname"><a href="classObject.html#a617de590f0f1eedd23ee434101b4db1f">Object::objetAttaque</a></div><div class="ttdeci">unsigned int objetAttaque</div><div class="ttdoc">Bonus d&amp;#39;attaque de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:46</div></div>
+<div class="ttc" id="classObject_html_ac4d9f3d1c82b3f9063813188d164cfe0"><div class="ttname"><a href="classObject.html#ac4d9f3d1c82b3f9063813188d164cfe0">Object::objetVitesseAttaque</a></div><div class="ttdeci">unsigned int objetVitesseAttaque</div><div class="ttdoc">Bonus de vitesse d&amp;#39;attaque de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:51</div></div>
+<div class="ttc" id="classObject_html_a12f06e9f0d164435b36531edb2d4bf4c"><div class="ttname"><a href="classObject.html#a12f06e9f0d164435b36531edb2d4bf4c">Object::renduObjet</a></div><div class="ttdeci">void renduObjet(sf::RenderWindow &amp;window)</div><div class="ttdoc">Affiche l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.cpp:88</div></div>
+<div class="ttc" id="classObject_html_aaa8b4e53d2d44b0b724ab217834d7556"><div class="ttname"><a href="classObject.html#aaa8b4e53d2d44b0b724ab217834d7556">Object::getRectCollisionObjet</a></div><div class="ttdeci">RectangleCollision * getRectCollisionObjet()</div><div class="ttdoc">accesseur du rectangle de collission de l&amp;#39;objet </div><div class="ttdef"><b>Definition:</b> Objet.cpp:83</div></div>
+<div class="ttc" id="classObject_html_aef78c477a70d2cae9b017483a208e1e3"><div class="ttname"><a href="classObject.html#aef78c477a70d2cae9b017483a208e1e3">Object::objetVie</a></div><div class="ttdeci">int objetVie</div><div class="ttdoc">Les PV de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:41</div></div>
+<div class="ttc" id="classObject_html_af73e71375d7c2901c848a5235982ff2b"><div class="ttname"><a href="classObject.html#af73e71375d7c2901c848a5235982ff2b">Object::initObjet</a></div><div class="ttdeci">void initObjet(int x, int y)</div><div class="ttdoc">Initialise un objet au hasard aux positions en parametre. </div><div class="ttdef"><b>Definition:</b> Objet.cpp:15</div></div>
+<div class="ttc" id="classObject_html_a57792a7bc3d7a4ceb65019805929224c"><div class="ttname"><a href="classObject.html#a57792a7bc3d7a4ceb65019805929224c">Object::rectCollisionObjet</a></div><div class="ttdeci">RectangleCollision * rectCollisionObjet</div><div class="ttdoc">Le rectangle de collision de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:34</div></div>
+<div class="ttc" id="classObject_html_a40860402e64d8008fb42329df7097cdb"><div class="ttname"><a href="classObject.html#a40860402e64d8008fb42329df7097cdb">Object::Object</a></div><div class="ttdeci">Object()</div><div class="ttdoc">constructeur par défaut de la classe </div><div class="ttdef"><b>Definition:</b> Objet.cpp:10</div></div>
+<div class="ttc" id="classObject_html_af2df029442f6083d1cd085471e6fa2aa"><div class="ttname"><a href="classObject.html#af2df029442f6083d1cd085471e6fa2aa">Object::textureObjet</a></div><div class="ttdeci">sf::Texture textureObjet</div><div class="ttdoc">La texture de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:25</div></div>
+<div class="ttc" id="classRectangleCollision_html"><div class="ttname"><a href="classRectangleCollision.html">RectangleCollision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:5</div></div>
+<div class="ttc" id="classObject_html_a600e4e4c2936df55a5aa7f15a1322357"><div class="ttname"><a href="classObject.html#a600e4e4c2936df55a5aa7f15a1322357">Object::spriteObjet</a></div><div class="ttdeci">sf::Sprite spriteObjet</div><div class="ttdoc">Le sprite de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:29</div></div>
+<div class="ttc" id="classObject_html_a3bf9d5c7267d6816a22f6362c74ce70a"><div class="ttname"><a href="classObject.html#a3bf9d5c7267d6816a22f6362c74ce70a">Object::positionObjet</a></div><div class="ttdeci">sf::Vector2i positionObjet</div><div class="ttdoc">La position de l&amp;#39;objet. </div><div class="ttdef"><b>Definition:</b> Objet.h:15</div></div>
+<div class="ttc" id="classObject_html_a21ab4cefc64ead3f63308431ec360899"><div class="ttname"><a href="classObject.html#a21ab4cefc64ead3f63308431ec360899">Object::objetVitesseDeplacement</a></div><div class="ttdeci">unsigned int objetVitesseDeplacement</div><div class="ttdoc">Bonus de vitesse de deplacement. </div><div class="ttdef"><b>Definition:</b> Objet.h:56</div></div>
+<div class="ttc" id="classObject_html_aea6d9ca3a7e0ec62fa7f62b3d6c56eae"><div class="ttname"><a href="classObject.html#aea6d9ca3a7e0ec62fa7f62b3d6c56eae">Object::getPosition</a></div><div class="ttdeci">sf::Vector2i getPosition()</div><div class="ttdoc">Accesseur de la position. </div><div class="ttdef"><b>Definition:</b> Objet.cpp:73</div></div>
+<div class="ttc" id="classObject_html_aa43a3319efbd440a2da6b5f93b1eedec"><div class="ttname"><a href="classObject.html#aa43a3319efbd440a2da6b5f93b1eedec">Object::getSize</a></div><div class="ttdeci">sf::Vector2i getSize()</div><div class="ttdoc">accesseur de la taille </div><div class="ttdef"><b>Definition:</b> Objet.cpp:78</div></div>
+<div class="ttc" id="classObject_html_a8d90a5329ddd5acf9dd37bec74a783a0"><div class="ttname"><a href="classObject.html#a8d90a5329ddd5acf9dd37bec74a783a0">Object::dimensionObjet</a></div><div class="ttdeci">sf::Vector2i dimensionObjet</div><div class="ttdoc">la dimension de l&amp;#39;objet </div><div class="ttdef"><b>Definition:</b> Objet.h:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

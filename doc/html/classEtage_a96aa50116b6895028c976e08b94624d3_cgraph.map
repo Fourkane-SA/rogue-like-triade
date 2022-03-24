@@ -1,0 +1,7 @@
+<map id="Etage::chargeEtage" name="Etage::chargeEtage">
+<area shape="rect" id="node2" href="$classSalle.html#a4250305c0a74a51fb6e7380c6ccc1af6" title="Initialise la salle. " alt="" coords="201,56,316,83"/>
+<area shape="rect" id="node3" href="$classMonstre.html#afc807b566fda8229809d429e5042050f" title="Initialise un monstre. " alt="" coords="369,5,524,32"/>
+<area shape="rect" id="node5" href="$classObject.html#af73e71375d7c2901c848a5235982ff2b" title="Initialise un objet au hasard aux positions en parametre. " alt="" coords="383,56,511,83"/>
+<area shape="rect" id="node6" href="$classObstacle.html#aaf8517649f6663f92732835b2d0a524c" title="Initialise l&#39;obstacle. " alt="" coords="364,107,529,133"/>
+<area shape="rect" id="node4" href="$classRectangleCollision.html#afe37cf9c24b46f2d6aff8a2d824234f3" title="Mutateur de la position. " alt="" coords="577,49,800,90"/>
+</map>

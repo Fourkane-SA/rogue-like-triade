@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriLand:  Fichier source de src/Obstacle.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TriLand
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Obstacle.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;Collision.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classObstacle.html">    8</a></span>&#160;<span class="keyword">class </span><a class="code" href="classObstacle.html">Obstacle</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classObstacle.html#a26c1adc648509793bf5ba7cb5d245548">   15</a></span>&#160;        sf::Vector2i <a class="code" href="classObstacle.html#a26c1adc648509793bf5ba7cb5d245548">positionObstacle</a>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classObstacle.html#a43a0dc3a0dc59b36e2e353499ef4b8df">   20</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObstacle.html#a43a0dc3a0dc59b36e2e353499ef4b8df">degatsObstacle</a>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classObstacle.html#af0696eaba74f74f6bb943e19d69037d5">   25</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classObstacle.html#af0696eaba74f74f6bb943e19d69037d5">franchissableObstacle</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classObstacle.html#afed1643f44ce8417955910a59785bfe6">   30</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classObstacle.html#afed1643f44ce8417955910a59785bfe6">destructibleObstacle</a>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classObstacle.html#a259d23eed603b4e9250cf954e39951f4">   36</a></span>&#160;        sf::Texture <a class="code" href="classObstacle.html#a259d23eed603b4e9250cf954e39951f4">textureObstacle</a>;</div><div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="classObstacle.html#a39fb8626d509bb6b65f850808041be99">   40</a></span>&#160;        sf::Sprite <a class="code" href="classObstacle.html#a39fb8626d509bb6b65f850808041be99">spriteObstacle</a>;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        </div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classObstacle.html#a1ec5e4f5c9e7dcdaf1b9620aa7652875">   45</a></span>&#160;        <a class="code" href="classRectangleCollision.html">RectangleCollision</a>* <a class="code" href="classObstacle.html#a1ec5e4f5c9e7dcdaf1b9620aa7652875">rectCollisionObstacle</a>;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    public :</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="classObstacle.html#a8f734072321fa06a7b7dae2d5f50f352">Obstacle</a>();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classObstacle.html#a8ae605cacaee270b007ff200f5881396">getFranchissableObstacle</a>();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="classRectangleCollision.html">RectangleCollision</a>* <a class="code" href="classObstacle.html#acb86931e033728e04406d480c08298b6">getRectCollisionObstacle</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="classObstacle.html#a4e6507329814337a5bf115465a48889f">getDegatsObstacle</a>();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classObstacle.html#aaf8517649f6663f92732835b2d0a524c">initObstacle</a>(<span class="keywordtype">char</span> typeObstacle, <span class="keyword">const</span> sf::Vector2i&amp; position);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classObstacle.html#ad0893040a71acd7660dbac84a9bf0954">renduObstacle</a>(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;};</div><div class="ttc" id="classObstacle_html_a259d23eed603b4e9250cf954e39951f4"><div class="ttname"><a href="classObstacle.html#a259d23eed603b4e9250cf954e39951f4">Obstacle::textureObstacle</a></div><div class="ttdeci">sf::Texture textureObstacle</div><div class="ttdoc">La texture de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:36</div></div>
+<div class="ttc" id="classObstacle_html"><div class="ttname"><a href="classObstacle.html">Obstacle</a></div><div class="ttdef"><b>Definition:</b> Obstacle.h:8</div></div>
+<div class="ttc" id="classObstacle_html_a8f734072321fa06a7b7dae2d5f50f352"><div class="ttname"><a href="classObstacle.html#a8f734072321fa06a7b7dae2d5f50f352">Obstacle::Obstacle</a></div><div class="ttdeci">Obstacle()</div><div class="ttdoc">Le constructeur de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:7</div></div>
+<div class="ttc" id="classObstacle_html_aaf8517649f6663f92732835b2d0a524c"><div class="ttname"><a href="classObstacle.html#aaf8517649f6663f92732835b2d0a524c">Obstacle::initObstacle</a></div><div class="ttdeci">void initObstacle(char typeObstacle, const sf::Vector2i &amp;position)</div><div class="ttdoc">Initialise l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:25</div></div>
+<div class="ttc" id="classObstacle_html_a8ae605cacaee270b007ff200f5881396"><div class="ttname"><a href="classObstacle.html#a8ae605cacaee270b007ff200f5881396">Obstacle::getFranchissableObstacle</a></div><div class="ttdeci">bool getFranchissableObstacle()</div><div class="ttdoc">accesseur du booléen franchissable </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:14</div></div>
+<div class="ttc" id="classObstacle_html_ad0893040a71acd7660dbac84a9bf0954"><div class="ttname"><a href="classObstacle.html#ad0893040a71acd7660dbac84a9bf0954">Obstacle::renduObstacle</a></div><div class="ttdeci">void renduObstacle(sf::RenderWindow &amp;window)</div><div class="ttdoc">Affiche l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:72</div></div>
+<div class="ttc" id="classObstacle_html_a1ec5e4f5c9e7dcdaf1b9620aa7652875"><div class="ttname"><a href="classObstacle.html#a1ec5e4f5c9e7dcdaf1b9620aa7652875">Obstacle::rectCollisionObstacle</a></div><div class="ttdeci">RectangleCollision * rectCollisionObstacle</div><div class="ttdoc">Le rectangle de collision de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:45</div></div>
+<div class="ttc" id="classObstacle_html_acb86931e033728e04406d480c08298b6"><div class="ttname"><a href="classObstacle.html#acb86931e033728e04406d480c08298b6">Obstacle::getRectCollisionObstacle</a></div><div class="ttdeci">RectangleCollision * getRectCollisionObstacle()</div><div class="ttdoc">Accesseur du rectangle de collission. </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:9</div></div>
+<div class="ttc" id="classObstacle_html_a43a0dc3a0dc59b36e2e353499ef4b8df"><div class="ttname"><a href="classObstacle.html#a43a0dc3a0dc59b36e2e353499ef4b8df">Obstacle::degatsObstacle</a></div><div class="ttdeci">unsigned int degatsObstacle</div><div class="ttdoc">Degats de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:20</div></div>
+<div class="ttc" id="classRectangleCollision_html"><div class="ttname"><a href="classRectangleCollision.html">RectangleCollision</a></div><div class="ttdef"><b>Definition:</b> Collision.h:5</div></div>
+<div class="ttc" id="classObstacle_html_af0696eaba74f74f6bb943e19d69037d5"><div class="ttname"><a href="classObstacle.html#af0696eaba74f74f6bb943e19d69037d5">Obstacle::franchissableObstacle</a></div><div class="ttdeci">bool franchissableObstacle</div><div class="ttdoc">Un booléen indiquant si l&amp;#39;obstacle est franchissable. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:25</div></div>
+<div class="ttc" id="classObstacle_html_a26c1adc648509793bf5ba7cb5d245548"><div class="ttname"><a href="classObstacle.html#a26c1adc648509793bf5ba7cb5d245548">Obstacle::positionObstacle</a></div><div class="ttdeci">sf::Vector2i positionObstacle</div><div class="ttdoc">Position de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:15</div></div>
+<div class="ttc" id="classObstacle_html_afed1643f44ce8417955910a59785bfe6"><div class="ttname"><a href="classObstacle.html#afed1643f44ce8417955910a59785bfe6">Obstacle::destructibleObstacle</a></div><div class="ttdeci">bool destructibleObstacle</div><div class="ttdoc">Un booléen indiquant si l&amp;#39;obstacle est destructible. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:30</div></div>
+<div class="ttc" id="classObstacle_html_a4e6507329814337a5bf115465a48889f"><div class="ttname"><a href="classObstacle.html#a4e6507329814337a5bf115465a48889f">Obstacle::getDegatsObstacle</a></div><div class="ttdeci">unsigned int getDegatsObstacle()</div><div class="ttdoc">Accesseur du degat de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.cpp:19</div></div>
+<div class="ttc" id="classObstacle_html_a39fb8626d509bb6b65f850808041be99"><div class="ttname"><a href="classObstacle.html#a39fb8626d509bb6b65f850808041be99">Obstacle::spriteObstacle</a></div><div class="ttdeci">sf::Sprite spriteObstacle</div><div class="ttdoc">La texture de l&amp;#39;obstacle. </div><div class="ttdef"><b>Definition:</b> Obstacle.h:40</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

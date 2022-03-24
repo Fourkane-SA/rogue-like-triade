@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriLand:  Fichier source de src/BarreDeVie.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TriLand
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">BarreDeVie.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structCouleur.html">    5</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structCouleur.html">Couleur</a></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="structCouleur.html#ab0ed5297c024309f1ced0b852914d474">   10</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structCouleur.html#ab0ed5297c024309f1ced0b852914d474">rouge</a>;</div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structCouleur.html#a33d1d3bbb7754c785fa6cdeae7f9b30d">   14</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="structCouleur.html#a33d1d3bbb7754c785fa6cdeae7f9b30d">vert</a>;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classBarreDeVie.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classBarreDeVie.html">BarreDeVie</a></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    private :</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classBarreDeVie.html#a03a0579493b3e8f7074b99c5980a551d">   24</a></span>&#160;        sf::Vector2f <a class="code" href="classBarreDeVie.html#a03a0579493b3e8f7074b99c5980a551d">positionBarreDeVie</a>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classBarreDeVie.html#a071a6ef92ae3fc3fc32ebf577093d44c">   29</a></span>&#160;        sf::Vector2f <a class="code" href="classBarreDeVie.html#a071a6ef92ae3fc3fc32ebf577093d44c">dimensionBarreDeVie</a>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        </div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classBarreDeVie.html#ad5074e5ae180af082adb0e5b24b3e039">   34</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classBarreDeVie.html#ad5074e5ae180af082adb0e5b24b3e039">vieMaxBarreDeVie</a>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classBarreDeVie.html#a6c9cff2a5689f11d58079a316d51f3f1">   39</a></span>&#160;        <span class="keywordtype">float</span> <a class="code" href="classBarreDeVie.html#a6c9cff2a5689f11d58079a316d51f3f1">vieBarreDeVie</a>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classBarreDeVie.html#a4c3b56910b47c389eb3231abdfc9b259">   44</a></span>&#160;        <a class="code" href="structCouleur.html">Couleur</a> <a class="code" href="classBarreDeVie.html#a4c3b56910b47c389eb3231abdfc9b259">couleurBarreDeVie</a>;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        sf::RectangleShape videBarreDeVie;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        sf::RectangleShape pleinBarreDeVie;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        sf::RectangleShape separationBarreDeVie;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">void</span> initBarreDeVie(<span class="keyword">const</span> sf::Vector2i&amp; dimensionFenetre, <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; vieMax);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">void</span> miseAJourBarreDeVie(<span class="keyword">const</span> <span class="keywordtype">int</span>&amp; vieMax, <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; vieActu);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordtype">void</span> affichageBarreDeVie(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div><div class="ttc" id="classBarreDeVie_html_a4c3b56910b47c389eb3231abdfc9b259"><div class="ttname"><a href="classBarreDeVie.html#a4c3b56910b47c389eb3231abdfc9b259">BarreDeVie::couleurBarreDeVie</a></div><div class="ttdeci">Couleur couleurBarreDeVie</div><div class="ttdoc">La couleur de la barre de vie (du rouge et du vert) </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:44</div></div>
+<div class="ttc" id="classBarreDeVie_html_a6c9cff2a5689f11d58079a316d51f3f1"><div class="ttname"><a href="classBarreDeVie.html#a6c9cff2a5689f11d58079a316d51f3f1">BarreDeVie::vieBarreDeVie</a></div><div class="ttdeci">float vieBarreDeVie</div><div class="ttdoc">Le nombre de points de vie actuel du joueur. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:39</div></div>
+<div class="ttc" id="structCouleur_html"><div class="ttname"><a href="structCouleur.html">Couleur</a></div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:5</div></div>
+<div class="ttc" id="structCouleur_html_ab0ed5297c024309f1ced0b852914d474"><div class="ttname"><a href="structCouleur.html#ab0ed5297c024309f1ced0b852914d474">Couleur::rouge</a></div><div class="ttdeci">unsigned char rouge</div><div class="ttdoc">La composante rouge de la couleur. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:10</div></div>
+<div class="ttc" id="classBarreDeVie_html_ad5074e5ae180af082adb0e5b24b3e039"><div class="ttname"><a href="classBarreDeVie.html#ad5074e5ae180af082adb0e5b24b3e039">BarreDeVie::vieMaxBarreDeVie</a></div><div class="ttdeci">float vieMaxBarreDeVie</div><div class="ttdoc">Le nombre de points de vie max du joueur. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:34</div></div>
+<div class="ttc" id="classBarreDeVie_html"><div class="ttname"><a href="classBarreDeVie.html">BarreDeVie</a></div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:17</div></div>
+<div class="ttc" id="classBarreDeVie_html_a03a0579493b3e8f7074b99c5980a551d"><div class="ttname"><a href="classBarreDeVie.html#a03a0579493b3e8f7074b99c5980a551d">BarreDeVie::positionBarreDeVie</a></div><div class="ttdeci">sf::Vector2f positionBarreDeVie</div><div class="ttdoc">La position de la barre de vie. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:24</div></div>
+<div class="ttc" id="classBarreDeVie_html_a071a6ef92ae3fc3fc32ebf577093d44c"><div class="ttname"><a href="classBarreDeVie.html#a071a6ef92ae3fc3fc32ebf577093d44c">BarreDeVie::dimensionBarreDeVie</a></div><div class="ttdeci">sf::Vector2f dimensionBarreDeVie</div><div class="ttdoc">La dimension de la barre de vie. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:29</div></div>
+<div class="ttc" id="structCouleur_html_a33d1d3bbb7754c785fa6cdeae7f9b30d"><div class="ttname"><a href="structCouleur.html#a33d1d3bbb7754c785fa6cdeae7f9b30d">Couleur::vert</a></div><div class="ttdeci">unsigned char vert</div><div class="ttdoc">La composante verte de la couleur. </div><div class="ttdef"><b>Definition:</b> BarreDeVie.h:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

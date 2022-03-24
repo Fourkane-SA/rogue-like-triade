@@ -1,0 +1,4 @@
+<map id="RectangleCollision::renduRectangleCollision" name="RectangleCollision::renduRectangleCollision">
+<area shape="rect" id="node2" href="$classMonstre.html#acf5a8d81363fd5f43852992199652362" title="Affiche le monstre. " alt="" coords="245,5,416,32"/>
+<area shape="rect" id="node3" href="$classObstacle.html#ad0893040a71acd7660dbac84a9bf0954" title="Affiche l&#39;obstacle. " alt="" coords="240,56,421,83"/>
+</map>

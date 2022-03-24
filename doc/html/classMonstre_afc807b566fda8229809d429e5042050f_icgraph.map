@@ -1,0 +1,4 @@
+<map id="Monstre::initMonstre" name="Monstre::initMonstre">
+<area shape="rect" id="node2" href="$classSalle.html#a4250305c0a74a51fb6e7380c6ccc1af6" title="Initialise la salle. " alt="" coords="208,5,323,32"/>
+<area shape="rect" id="node3" href="$classEtage.html#a96aa50116b6895028c976e08b94624d3" title="Charge les salles d&#39;un étage. " alt="" coords="371,5,519,32"/>
+</map>

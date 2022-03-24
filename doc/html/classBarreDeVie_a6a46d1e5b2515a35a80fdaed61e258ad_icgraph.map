@@ -1,0 +1,4 @@
+<map id="BarreDeVie::initBarreDeVie" name="BarreDeVie::initBarreDeVie">
+<area shape="rect" id="node2" href="$classPersonnage.html#a7d3b0a85978151625d601d9350124d9d" title="Initialise le personnage. " alt="" coords="252,5,455,32"/>
+<area shape="rect" id="node3" href="$classJeu.html#aa00144cea14a34cae1a0872b072520c0" title="Initialisation d&#39;un étage du jeu. " alt="" coords="503,5,593,32"/>
+</map>

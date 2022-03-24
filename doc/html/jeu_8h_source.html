@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriLand:  Fichier source de src/jeu.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TriLand
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">jeu.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;jeu.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;Personnage.h&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;Objet.h&quot;</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;Obstacle.h&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;Etage.h&quot;</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;Salle.h&quot;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;Projectile.h&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;Monstre.h&quot;</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classJeu.html">   15</a></span>&#160;<span class="keyword">class </span><a class="code" href="classJeu.html">Jeu</a></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classJeu.html#a7532d61d47026e5741dfadb047670ead">   22</a></span>&#160;        <a class="code" href="classPersonnage.html">Personnage</a>* <a class="code" href="classJeu.html#a7532d61d47026e5741dfadb047670ead">personnageJeu</a>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        </div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classJeu.html#a4123177806b35bbe45e5e1add1110220">   27</a></span>&#160;        <a class="code" href="classEtage.html">Etage</a>* <a class="code" href="classJeu.html#a4123177806b35bbe45e5e1add1110220">etageActuJeu</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classJeu.html#a0ef3f748be8469fab65534fa30d7479e">   32</a></span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="classJeu.html#a0ef3f748be8469fab65534fa30d7479e">numeroEtageJeu</a>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classJeu.html#aad19aa422b920f0813ba7d9494413204">   37</a></span>&#160;        <span class="keywordtype">char</span> <a class="code" href="classJeu.html#aad19aa422b920f0813ba7d9494413204">typePerso</a>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classJeu.html#aa00144cea14a34cae1a0872b072520c0">initJeu</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>&amp; choix, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> niveau) ;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="classJeu.html#acc5795ee00edf75516d3dfe65be3e6d6">Jeu</a>();</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classJeu.html#ac959f335262060f9d4b8fdee09773b23">miseAJourJeu</a>();</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classJeu.html#a1673f9ceb3b2237ec37ebcf923363da1">renduJeu</a>(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;};</div><div class="ttc" id="classJeu_html_a7532d61d47026e5741dfadb047670ead"><div class="ttname"><a href="classJeu.html#a7532d61d47026e5741dfadb047670ead">Jeu::personnageJeu</a></div><div class="ttdeci">Personnage * personnageJeu</div><div class="ttdoc">Personnage du jeu. </div><div class="ttdef"><b>Definition:</b> jeu.h:22</div></div>
+<div class="ttc" id="classPersonnage_html"><div class="ttname"><a href="classPersonnage.html">Personnage</a></div><div class="ttdef"><b>Definition:</b> Personnage.h:13</div></div>
+<div class="ttc" id="classJeu_html_a0ef3f748be8469fab65534fa30d7479e"><div class="ttname"><a href="classJeu.html#a0ef3f748be8469fab65534fa30d7479e">Jeu::numeroEtageJeu</a></div><div class="ttdeci">unsigned char numeroEtageJeu</div><div class="ttdoc">Niveau de jeu. </div><div class="ttdef"><b>Definition:</b> jeu.h:32</div></div>
+<div class="ttc" id="classJeu_html_a1673f9ceb3b2237ec37ebcf923363da1"><div class="ttname"><a href="classJeu.html#a1673f9ceb3b2237ec37ebcf923363da1">Jeu::renduJeu</a></div><div class="ttdeci">void renduJeu(sf::RenderWindow &amp;window)</div><div class="ttdoc">Affiche le jeu. </div><div class="ttdef"><b>Definition:</b> jeu.cpp:53</div></div>
+<div class="ttc" id="classJeu_html_aad19aa422b920f0813ba7d9494413204"><div class="ttname"><a href="classJeu.html#aad19aa422b920f0813ba7d9494413204">Jeu::typePerso</a></div><div class="ttdeci">char typePerso</div><div class="ttdoc">Type de personnage. </div><div class="ttdef"><b>Definition:</b> jeu.h:37</div></div>
+<div class="ttc" id="classJeu_html_ac959f335262060f9d4b8fdee09773b23"><div class="ttname"><a href="classJeu.html#ac959f335262060f9d4b8fdee09773b23">Jeu::miseAJourJeu</a></div><div class="ttdeci">void miseAJourJeu()</div><div class="ttdoc">Mets à jour le jeu. </div><div class="ttdef"><b>Definition:</b> jeu.cpp:38</div></div>
+<div class="ttc" id="classJeu_html"><div class="ttname"><a href="classJeu.html">Jeu</a></div><div class="ttdef"><b>Definition:</b> jeu.h:15</div></div>
+<div class="ttc" id="classJeu_html_a4123177806b35bbe45e5e1add1110220"><div class="ttname"><a href="classJeu.html#a4123177806b35bbe45e5e1add1110220">Jeu::etageActuJeu</a></div><div class="ttdeci">Etage * etageActuJeu</div><div class="ttdoc">Etage actuel du jeu. </div><div class="ttdef"><b>Definition:</b> jeu.h:27</div></div>
+<div class="ttc" id="classJeu_html_aa00144cea14a34cae1a0872b072520c0"><div class="ttname"><a href="classJeu.html#aa00144cea14a34cae1a0872b072520c0">Jeu::initJeu</a></div><div class="ttdeci">void initJeu(const char &amp;choix, unsigned char niveau)</div><div class="ttdoc">Initialisation d&amp;#39;un étage du jeu. </div><div class="ttdef"><b>Definition:</b> jeu.cpp:20</div></div>
+<div class="ttc" id="classJeu_html_acc5795ee00edf75516d3dfe65be3e6d6"><div class="ttname"><a href="classJeu.html#acc5795ee00edf75516d3dfe65be3e6d6">Jeu::Jeu</a></div><div class="ttdeci">Jeu()</div><div class="ttdoc">Constructeur par défaut. </div><div class="ttdef"><b>Definition:</b> jeu.cpp:14</div></div>
+<div class="ttc" id="classEtage_html"><div class="ttname"><a href="classEtage.html">Etage</a></div><div class="ttdef"><b>Definition:</b> Etage.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

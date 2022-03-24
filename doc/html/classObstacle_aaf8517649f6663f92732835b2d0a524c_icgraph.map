@@ -1,0 +1,5 @@
+<map id="Obstacle::initObstacle" name="Obstacle::initObstacle">
+<area shape="rect" id="node2" href="$classSalle.html#a4250305c0a74a51fb6e7380c6ccc1af6" title="Initialise la salle. " alt="" coords="241,5,356,32"/>
+<area shape="rect" id="node4" href="$classSalle.html#a765cdac7be15c6cbd378733141aacd5e" title="Mets à jour la salle. " alt="" coords="219,56,379,83"/>
+<area shape="rect" id="node3" href="$classEtage.html#a96aa50116b6895028c976e08b94624d3" title="Charge les salles d&#39;un étage. " alt="" coords="427,5,575,32"/>
+</map>

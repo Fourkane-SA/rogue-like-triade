@@ -1,0 +1,17 @@
+<map id="Salle::miseAJourSalle" name="Salle::miseAJourSalle">
+<area shape="rect" id="node2" href="$classEtage.html#ae41605270db8fda52bca01b3b6853456" title="Accesseur de la position de la salle actuelle. " alt="" coords="237,5,439,32"/>
+<area shape="rect" id="node3" href="$classEtage.html#af5bbf0452c75c2c32a1628da688be06b" title="Mutateur de la position de la salle actuelle. " alt="" coords="263,56,413,83"/>
+<area shape="rect" id="node4" href="$classObstacle.html#aaf8517649f6663f92732835b2d0a524c" title="Initialise l&#39;obstacle. " alt="" coords="255,107,421,133"/>
+<area shape="rect" id="node6" href="$classPersonnage.html#a1f9bf271cfe4bf3d8321a0d14543bc49" title="Accesseur du rectangle de collision du personnnage. " alt="" coords="233,158,443,199"/>
+<area shape="rect" id="node7" href="$classRectangleCollision.html#a3fbc773646d28a00bc2e22051d5184b3" title="Verifie s&#39;il y a collision avec un autre rectangle de collision. " alt="" coords="267,223,409,265"/>
+<area shape="rect" id="node8" href="$classPersonnage.html#a162f96d9108c59e52ff9cfb52111ff75" title="Affecte l&#39;effet de l&#39;obstacle sur le personnage. " alt="" coords="242,289,434,330"/>
+<area shape="rect" id="node10" href="$classPersonnage.html#a8642585304d1c2b30b1ec6006add09fd" title="Detecte si une attaque du personnage est au collision avec un rectangle de collision. " alt="" coords="231,355,445,381"/>
+<area shape="rect" id="node11" href="$classRectangleCollision.html#af15c1ecbac628e9ce6228ca3fa702a18" title="Verifie s&#39;il y a une collision pour chaque angle. " alt="" coords="254,406,422,447"/>
+<area shape="rect" id="node12" href="$classPersonnage.html#a30a33745205791085877e5b47f3fd1a6" title="Evite au personnage de traverser le mur. " alt="" coords="246,472,430,499"/>
+<area shape="rect" id="node13" href="$classPersonnage.html#af88b96ba093a7fe949dd3d2ef43a22ac" title="Accesseur de la position du personnage. " alt="" coords="231,523,445,549"/>
+<area shape="rect" id="node14" href="$classPersonnage.html#a38b479deec667309f2e3adb5c95eb9bd" title="Accesseur de degats du personnage. " alt="" coords="213,573,463,600"/>
+<area shape="rect" id="node15" href="$classPersonnage.html#ac0f06214dc8f84ed27467d53c8244bb2" title="Diminue les points de vie du personnage. " alt="" coords="235,624,441,651"/>
+<area shape="rect" id="node16" href="$classPersonnage.html#a90f9751e58a95725de3b896a37e68747" title="Ajoute un objet au personnage. " alt="" coords="233,675,443,701"/>
+<area shape="rect" id="node5" href="$classRectangleCollision.html#afe37cf9c24b46f2d6aff8a2d824234f3" title="Mutateur de la position. " alt="" coords="511,99,733,141"/>
+<area shape="rect" id="node9" href="$classObstacle.html#a4e6507329814337a5bf115465a48889f" title="Accesseur du degat de l&#39;obstacle. " alt="" coords="517,296,727,323"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Etage::miseAJourEtage" name="Etage::miseAJourEtage">
+<area shape="rect" id="node2" href="$classPersonnage.html#af88b96ba093a7fe949dd3d2ef43a22ac" title="Accesseur de la position du personnage. " alt="" coords="224,5,439,32"/>
+<area shape="rect" id="node3" href="$classPersonnage.html#a25a7caed3d468f577e48dc45de2860e9" title="Accesseur de la dimension du personnage. " alt="" coords="233,57,430,98"/>
+<area shape="rect" id="node4" href="$classPersonnage.html#ad87e760f3ccc5ba228f3f2db66f086a0" title="Mutateur de la position du personnage. " alt="" coords="224,123,439,149"/>
+<area shape="rect" id="node5" href="$classPersonnage.html#a6a2a456e83e19133e514b4d759570edd" title="Vide tous les projectiles du personnage. " alt="" coords="234,173,429,200"/>
+<area shape="rect" id="node6" href="$classPersonnage.html#a36b8826bf80c785561c68617d1c032fe" title="Mutateur de l&#39;invincibilité " alt="" coords="230,224,433,251"/>
+<area shape="rect" id="node7" href="$classPersonnage.html#a06f5b03efc22fa9de1bba35aa2d089aa" title="Met à jour le personnage. " alt="" coords="227,275,435,301"/>
+</map>

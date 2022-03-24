@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TriLand:  Fichier source de src/Etage.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">TriLand
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Etage.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;SFML/Graphics.hpp&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;Salle.h&quot;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;Collision.h&quot;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;Personnage.h&quot;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classEtage.html">    9</a></span>&#160;<span class="keyword">class </span><a class="code" href="classEtage.html">Etage</a></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">private</span>:</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        </div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classEtage.html#a7316f2721a2c5b016f1fc83db150899f">   17</a></span>&#160;        sf::Vector2i <a class="code" href="classEtage.html#a7316f2721a2c5b016f1fc83db150899f">positionSalleActuEtage</a>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classEtage.html#a692da98a98bad33d905c64b5cf534763">   22</a></span>&#160;        <a class="code" href="classSalle.html">Salle</a>* <a class="code" href="classEtage.html#a692da98a98bad33d905c64b5cf534763">tabSallesEtage</a>[10][10];</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classEtage.html#ae5629c8b7d8e04d36cf15777e696b652">   27</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classEtage.html#ae5629c8b7d8e04d36cf15777e696b652">nombreSalleEtage</a>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classEtage.html#aed90eff4f84ccf852611604e3ea925bd">   32</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classEtage.html#aed90eff4f84ccf852611604e3ea925bd">finNiveau</a>;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classEtage.html#ac5e88194992edb42b40535662eda006a">   45</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classEtage.html#ac5e88194992edb42b40535662eda006a">patternEtage</a>[10][10];</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        </div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="classEtage.html#a2d0d40584e7e995f60ddda571cd79415">Etage</a>();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="classEtage.html#a372b6a1b5b5f0ebf48e62b09352d239a">~Etage</a>();</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classEtage.html#ab061e6c9b16ec366361eb09cd47aff8b">salleLibreEtage</a>(<span class="keyword">const</span> <span class="keywordtype">int</span>&amp; x, <span class="keyword">const</span> <span class="keywordtype">int</span>&amp; y);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#a0c08a74f5c2fc106f35b1bb4367f8ddb">generationPatternEtage</a>();</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#a96aa50116b6895028c976e08b94624d3">chargeEtage</a>();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#a176cedd937d3274983d13598855d9894">chargeSalleEtage</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#afc85952d56fa0af6b3d7af99ec9e4808">miseAJourEtage</a>(<a class="code" href="classPersonnage.html">Personnage</a>* personnage);</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#a64a71c658b04979c4c0af459e1422bfc">renduEtage</a>(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#ad7390fc1abba51829f8797dacaa28d08">afficherConsole</a>();</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#ab2c266e67cd444e834328facb6e9fb9d">renduMap</a>(sf::RenderWindow&amp; window);</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        sf::Vector2i <a class="code" href="classEtage.html#ae41605270db8fda52bca01b3b6853456">getPositionSalleActu</a>();</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classEtage.html#af5bbf0452c75c2c32a1628da688be06b">setFinNiveau</a>();</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classEtage.html#a280a9065b23553ca842821477e887e27">getFinNiveau</a>();</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;};</div><div class="ttc" id="classEtage_html_afc85952d56fa0af6b3d7af99ec9e4808"><div class="ttname"><a href="classEtage.html#afc85952d56fa0af6b3d7af99ec9e4808">Etage::miseAJourEtage</a></div><div class="ttdeci">void miseAJourEtage(Personnage *personnage)</div><div class="ttdoc">Mets à jour l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:150</div></div>
+<div class="ttc" id="classEtage_html_ae5629c8b7d8e04d36cf15777e696b652"><div class="ttname"><a href="classEtage.html#ae5629c8b7d8e04d36cf15777e696b652">Etage::nombreSalleEtage</a></div><div class="ttdeci">int nombreSalleEtage</div><div class="ttdoc">Le nombre de salle de l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.h:27</div></div>
+<div class="ttc" id="classEtage_html_ab2c266e67cd444e834328facb6e9fb9d"><div class="ttname"><a href="classEtage.html#ab2c266e67cd444e834328facb6e9fb9d">Etage::renduMap</a></div><div class="ttdeci">void renduMap(sf::RenderWindow &amp;window)</div><div class="ttdoc">affiche la map </div><div class="ttdef"><b>Definition:</b> Etage.cpp:243</div></div>
+<div class="ttc" id="classPersonnage_html"><div class="ttname"><a href="classPersonnage.html">Personnage</a></div><div class="ttdef"><b>Definition:</b> Personnage.h:13</div></div>
+<div class="ttc" id="classEtage_html_a2d0d40584e7e995f60ddda571cd79415"><div class="ttname"><a href="classEtage.html#a2d0d40584e7e995f60ddda571cd79415">Etage::Etage</a></div><div class="ttdeci">Etage()</div><div class="ttdoc">Constructeur par défaut de la classe. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:9</div></div>
+<div class="ttc" id="classEtage_html_a7316f2721a2c5b016f1fc83db150899f"><div class="ttname"><a href="classEtage.html#a7316f2721a2c5b016f1fc83db150899f">Etage::positionSalleActuEtage</a></div><div class="ttdeci">sf::Vector2i positionSalleActuEtage</div><div class="ttdoc">position de la salle actuelle </div><div class="ttdef"><b>Definition:</b> Etage.h:17</div></div>
+<div class="ttc" id="classEtage_html_ad7390fc1abba51829f8797dacaa28d08"><div class="ttname"><a href="classEtage.html#ad7390fc1abba51829f8797dacaa28d08">Etage::afficherConsole</a></div><div class="ttdeci">void afficherConsole()</div><div class="ttdoc">Affiche sur la console l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:217</div></div>
+<div class="ttc" id="classEtage_html_ab061e6c9b16ec366361eb09cd47aff8b"><div class="ttname"><a href="classEtage.html#ab061e6c9b16ec366361eb09cd47aff8b">Etage::salleLibreEtage</a></div><div class="ttdeci">bool salleLibreEtage(const int &amp;x, const int &amp;y)</div><div class="ttdoc">Retourne un booléen vérifiant si la salle est libre. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:27</div></div>
+<div class="ttc" id="classEtage_html_a64a71c658b04979c4c0af459e1422bfc"><div class="ttname"><a href="classEtage.html#a64a71c658b04979c4c0af459e1422bfc">Etage::renduEtage</a></div><div class="ttdeci">void renduEtage(sf::RenderWindow &amp;window)</div><div class="ttdoc">Affiche l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:202</div></div>
+<div class="ttc" id="classEtage_html_a692da98a98bad33d905c64b5cf534763"><div class="ttname"><a href="classEtage.html#a692da98a98bad33d905c64b5cf534763">Etage::tabSallesEtage</a></div><div class="ttdeci">Salle * tabSallesEtage[10][10]</div><div class="ttdoc">Un tableau de salles représentant l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.h:22</div></div>
+<div class="ttc" id="classEtage_html_a280a9065b23553ca842821477e887e27"><div class="ttname"><a href="classEtage.html#a280a9065b23553ca842821477e887e27">Etage::getFinNiveau</a></div><div class="ttdeci">bool getFinNiveau()</div><div class="ttdoc">Accesseur du booléen de fin de niveau. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:275</div></div>
+<div class="ttc" id="classSalle_html"><div class="ttname"><a href="classSalle.html">Salle</a></div><div class="ttdef"><b>Definition:</b> Salle.h:13</div></div>
+<div class="ttc" id="classEtage_html_ac5e88194992edb42b40535662eda006a"><div class="ttname"><a href="classEtage.html#ac5e88194992edb42b40535662eda006a">Etage::patternEtage</a></div><div class="ttdeci">int patternEtage[10][10]</div><div class="ttdoc">Un tableau 2D d&amp;#39;entiers représentant l&amp;#39;étage. </div><div class="ttdef"><b>Definition:</b> Etage.h:45</div></div>
+<div class="ttc" id="classEtage_html_a0c08a74f5c2fc106f35b1bb4367f8ddb"><div class="ttname"><a href="classEtage.html#a0c08a74f5c2fc106f35b1bb4367f8ddb">Etage::generationPatternEtage</a></div><div class="ttdeci">void generationPatternEtage()</div><div class="ttdoc">Genere un étage. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:66</div></div>
+<div class="ttc" id="classEtage_html_af5bbf0452c75c2c32a1628da688be06b"><div class="ttname"><a href="classEtage.html#af5bbf0452c75c2c32a1628da688be06b">Etage::setFinNiveau</a></div><div class="ttdeci">void setFinNiveau()</div><div class="ttdoc">Mutateur de la position de la salle actuelle. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:270</div></div>
+<div class="ttc" id="classEtage_html_aed90eff4f84ccf852611604e3ea925bd"><div class="ttname"><a href="classEtage.html#aed90eff4f84ccf852611604e3ea925bd">Etage::finNiveau</a></div><div class="ttdeci">bool finNiveau</div><div class="ttdoc">Un booléen vrai si le niveau est terminé </div><div class="ttdef"><b>Definition:</b> Etage.h:32</div></div>
+<div class="ttc" id="classEtage_html_a96aa50116b6895028c976e08b94624d3"><div class="ttname"><a href="classEtage.html#a96aa50116b6895028c976e08b94624d3">Etage::chargeEtage</a></div><div class="ttdeci">void chargeEtage()</div><div class="ttdoc">Charge les salles d&amp;#39;un étage. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:112</div></div>
+<div class="ttc" id="classEtage_html_a176cedd937d3274983d13598855d9894"><div class="ttname"><a href="classEtage.html#a176cedd937d3274983d13598855d9894">Etage::chargeSalleEtage</a></div><div class="ttdeci">void chargeSalleEtage(int x, int y)</div><div class="ttdoc">Charge la salle actuelle. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:128</div></div>
+<div class="ttc" id="classEtage_html"><div class="ttname"><a href="classEtage.html">Etage</a></div><div class="ttdef"><b>Definition:</b> Etage.h:9</div></div>
+<div class="ttc" id="classEtage_html_ae41605270db8fda52bca01b3b6853456"><div class="ttname"><a href="classEtage.html#ae41605270db8fda52bca01b3b6853456">Etage::getPositionSalleActu</a></div><div class="ttdeci">sf::Vector2i getPositionSalleActu()</div><div class="ttdoc">Accesseur de la position de la salle actuelle. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:265</div></div>
+<div class="ttc" id="classEtage_html_a372b6a1b5b5f0ebf48e62b09352d239a"><div class="ttname"><a href="classEtage.html#a372b6a1b5b5f0ebf48e62b09352d239a">Etage::~Etage</a></div><div class="ttdeci">~Etage()</div><div class="ttdoc">Destructeur par défaut. </div><div class="ttdef"><b>Definition:</b> Etage.cpp:228</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

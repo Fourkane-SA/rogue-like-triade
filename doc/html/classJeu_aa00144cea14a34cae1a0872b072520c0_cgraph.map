@@ -1,0 +1,5 @@
+<map id="Jeu::initJeu" name="Jeu::initJeu">
+<area shape="rect" id="node2" href="$classPersonnage.html#a7d3b0a85978151625d601d9350124d9d" title="Initialise le personnage. " alt="" coords="144,5,347,32"/>
+<area shape="rect" id="node4" href="$classEtage.html#a0c08a74f5c2fc106f35b1bb4367f8ddb" title="Genere un étage. " alt="" coords="154,57,337,98"/>
+<area shape="rect" id="node3" href="$classBarreDeVie.html#a6a46d1e5b2515a35a80fdaed61e258ad" title="Initialise la barre de vie. " alt="" coords="395,5,593,32"/>
+</map>
